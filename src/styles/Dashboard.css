@@ -1,0 +1,158 @@
+.dashboard-page {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 80px);
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-container h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.0rem;
+  outline: none;
+  cursor: default;
+  background-color: transparent;
+}
+
+.search-input::placeholder {
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.save-button {
+  padding: 0.5rem 1rem;
+  background: #389CFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-button {
+  padding: 0.5rem 1rem;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.files-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 400px;
+  padding: 1rem;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.file-name {
+  color: #333;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.file-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.file-actions button {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s;
+}
+
+.no-files-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.save-button:hover {
+  background: #2980ff;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
+
+.delete-all-button {
+  padding: 0.5rem 1rem;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-all-button:hover {
+  background: #c82333;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.upload-button {
+  padding: 0.5rem 1.2rem;
+  background: #389CFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.upload-button:hover {
+  background: #2980ff;
+} 
