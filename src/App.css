@@ -94,13 +94,14 @@
   align-items: flex-start;
   border-radius: 0;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
 }
 
 .title-content {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 60px;
+  padding: 0 2rem;
   text-align: left;
 }
 
@@ -175,11 +176,22 @@
 
 @media (max-width: 1250px) {
   .title {
-    width: 90%;
+    width: 100%;
     height: auto;
-    padding: 2rem 1rem;
+    min-height: 230px;
+    padding: 2rem 0;
   }
   .title-content {
-    padding: 2rem 1rem;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+    min-height: 200px;
+  }
+  .title-content {
+    padding: 0 1.5rem;
   }
 }
